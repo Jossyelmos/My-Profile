@@ -527,16 +527,24 @@ table th {
   }
 
   .homeInfo {
-    width: 484px;
+    width: 340px;
   }
 
   .infoCls h1 {
-    font-size: 3rem;
+    font-size: 2.2rem;
   }
 
   .infoCls p {
     line-height: 1.5rem;
-    letter-spacing: 0.5px;
+    letter-spacing: 0.2px;
+  }
+
+  .social-img a {
+    margin-right: 8px;
+  }
+
+  .social-img img {
+    display: none;
   }
 
   /* Text Styles */
@@ -561,5 +569,44 @@ table th {
   .navbar ul {
     text-align: center;
     justify-content: center;
+  }
+}
+
+@media (min-width: 1600px) {
+  .container {
+    position: relative;
+    top: 10rem;
+  }
+
+  .homeInfo {
+    width: 1100px;
+  }
+
+  .infoCls h1 {
+    font-size: 6rem;
+    line-height: 100px;
+  }
+
+  .infoCls p {
+    font-size: 25px;
+    line-height: 2rem;
+    letter-spacing: 2px;
+  }
+
+  .social-img a {
+    margin-right: 100px;
+  }
+
+  .port h1 {
+    position: relative;
+    margin-top: 10rem;
+    font-size: 4rem;
+    margin-bottom: 10rem;
+  }
+
+  .grid-2,
+  .grid-3,
+  .grid-4 {
+    grid-gap: 3rem;
   }
 }
