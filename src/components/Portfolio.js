@@ -21,6 +21,12 @@ const Portfolio = () => {
             'link': 'https://mazaa.vercel.app/',
             'html': 'MAZAA RECIPES'
         },
+        {
+            'id': '4',
+            'imageURL': 'https://images.unsplash.com/photo-1595769816263-9b910be24d5f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=879&q=80',
+            'link': 'https://pwakanda.herokuapp.com/',
+            'html': 'MOVIES APP'
+        },
     ]
 
     const [isHovering, setIsHovering] = useState(-1);
