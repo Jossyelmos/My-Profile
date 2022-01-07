@@ -33,7 +33,7 @@ const Portfolio = () => {
                     {portfolios.map((item) => {
                         return (
                             <div className="" key={item.id}>    
-                                <a href={item.link} onMouseEnter={() => setIsHovering(item.id)} onMouseLeave={() => setIsHovering(-1)}>
+                                <a href={item.link} target='_blank' onMouseEnter={() => setIsHovering(item.id)} onMouseLeave={() => setIsHovering(-1)}>
                                     <h3 className={isHovering === item.id ? 'port_html' : 'hidden'}>{item.html}</h3>
                                     <img 
                                         src={item.imageURL} 
