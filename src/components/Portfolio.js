@@ -27,6 +27,12 @@ const Portfolio = () => {
             'link': 'https://pwakanda.herokuapp.com/',
             'html': 'MOVIES APP'
         },
+        {
+            'id': '5',
+            'imageURL': 'https://images.unsplash.com/photo-1580894908361-967195033215?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80',
+            'link': 'https://it-logger-kappa.vercel.app/',
+            'html': 'IT - LOGGER'
+        }
     ]
 
     const [isHovering, setIsHovering] = useState(-1);

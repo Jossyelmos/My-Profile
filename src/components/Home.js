@@ -25,7 +25,10 @@ const Home = () => {
                             <a href='#!'><i className="fab fa-js-square fa-3x"></i> </a>
                             <a href='#!'><img src="https://img.Icons8.com/color/48/000000/firebase.png" alt='' /></a>
                         </p>
-                        <a href='/portfolio' className='botton pink'>MORE ABOUT ME<i className='fa fa-arrow-right homeIcon active text-light' /></a>
+                        <a href='/portfolio' className='botton pink'>
+                                MORE ABOUT ME
+                            <i className='fa fa-arrow-right homeIcon active text-light' />
+                        </a>
                     </div>
                 </div>
             </div>
