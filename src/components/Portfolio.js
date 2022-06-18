@@ -6,7 +6,7 @@ const Portfolio = () => {
         {
             'id': '1',
             'imageURL': 'https://spliteq.co.za/wp-content/uploads/2020/07/contact-2.jpg',
-            'link': 'https://lit-island-75764.herokuapp.com/',
+            'link': 'https://glacial-scrubland-92782.herokuapp.com/',
             'html': 'MANAGE-IT'
         },
         {
