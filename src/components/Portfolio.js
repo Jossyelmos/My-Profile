@@ -1,35 +1,42 @@
 import React, { useState } from 'react';
+import image from '../images/manageIT2.png';
+import image2 from '../images/github_finder.png';
+import image3 from '../images/mazaa.png';
+import image4 from '../images/pwakanda.png';
+import image5 from '../images/it-logger.png';
 import { Link } from 'react-router-dom';
 
 const Portfolio = () => {
+    
+
     const portfolios = [
         {
             'id': '1',
-            'imageURL': 'https://spliteq.co.za/wp-content/uploads/2020/07/contact-2.jpg',
-            'link': 'https://lit-island-75764.herokuapp.com/',
+            'imageURL': image,
+            'link': 'https://glacial-scrubland-92782.herokuapp.com/',
             'html': 'MANAGE-IT'
         },
         {
             'id': '2',
-            'imageURL': 'https://images.ctfassets.net/lzny33ho1g45/how-to-push-to-github-p-img/2cdf1242bb3c892e4c8814dd123ca321/file.png?w=1520&fm=jpg&q=30&fit=thumb&h=760',
+            'imageURL': image2,
             'link': 'https://github-finder-nine-eta.vercel.app/',
             'html': 'GITHUB FINDER'
         },
         {
             'id': '3',
-            'imageURL': 'https://www.thebalancesmb.com/thmb/kectf9d4azgI8yVnBuoB0h2Z8zA=/3865x2174/smart/filters:no_upscale()/overhead-view-of-smiling-female-friends-sharing-lunch-in-restaurant-928010348-5b4abe8f46e0fb003712c478.jpg',
+            'imageURL': image3,
             'link': 'https://mazaa.vercel.app/',
             'html': 'MAZAA RECIPES'
         },
         {
             'id': '4',
-            'imageURL': 'https://images.unsplash.com/photo-1595769816263-9b910be24d5f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=879&q=80',
+            'imageURL': image4,
             'link': 'https://pwakanda.herokuapp.com/',
             'html': 'MOVIES APP'
         },
         {
             'id': '5',
-            'imageURL': 'https://images.unsplash.com/photo-1580894908361-967195033215?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80',
+            'imageURL': image5,
             'link': 'https://it-logger-kappa.vercel.app/',
             'html': 'IT - LOGGER'
         }
@@ -45,7 +52,7 @@ const Portfolio = () => {
                     {portfolios.map((item) => {
                         return (
                             <div className="" key={item.id}>    
-                                <a href={item.link} target='_blank' without rel="noreferrer" onMouseEnter={() => setIsHovering(item.id)} onMouseLeave={() => setIsHovering(-1)}>
+                                <a href={item.link} target='_blank' without='true' rel="noreferrer" onMouseEnter={() => setIsHovering(item.id)} onMouseLeave={() => setIsHovering(-1)}>
                                     <h3 className={isHovering === item.id ? 'port_html' : 'hidden'}>{item.html}</h3>
                                     <img 
                                         src={item.imageURL} 
