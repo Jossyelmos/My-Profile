@@ -13,7 +13,7 @@ const Portfolio = () => {
         {
             'id': '1',
             'imageURL': image,
-            'link': 'https://glacial-scrubland-92782.herokuapp.com/',
+            'link': 'https://manage-it.onrender.com/',
             'html': 'MANAGE-IT'
         },
         {
