@@ -2,7 +2,7 @@ import React, {useState} from 'react';
 import image from '../images/manageIT2.png';
 import image2 from '../images/github_finder.png';
 import image3 from '../images/mazaa.png';
-import image4 from '../images/pwakanda.png';
+import image4 from '../images/cabin.png';
 import image5 from '../images/it-logger.png';
 import { Link } from 'react-router-dom';
 
@@ -31,8 +31,8 @@ const Portfolio = () => {
         {
             'id': '4',
             'imageURL': image4,
-            'link': 'https://pwakanda.herokuapp.com/',
-            'html': 'MOVIES APP'
+            'link': 'https://cabinit.vercel.app/',
+            'html': 'CABINET APP'
         },
         {
             'id': '5',
