@@ -4,6 +4,7 @@ import image2 from '../images/github_finder.png';
 import image3 from '../images/mazaa.png';
 import image4 from '../images/cabin.png';
 import image5 from '../images/it-logger.png';
+import image6 from '../images/netflix_img.png';
 import { Link } from 'react-router-dom';
 
 const Portfolio = () => {
@@ -39,6 +40,12 @@ const Portfolio = () => {
             'imageURL': image5,
             'link': 'https://it-logger-kappa.vercel.app/',
             'html': 'IT - LOGGER'
+        },
+        {
+            'id': '',
+            'imageURL': image6,
+            'link': 'https://netflix-clone-2c2b6.web.app/',
+            'html': 'NETFLIX - CLONE'
         }
     ]
 
