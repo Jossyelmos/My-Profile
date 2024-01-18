@@ -16,7 +16,7 @@ const Home = () => {
                         <h1>i'm amos oluniyi. <span>web developer</span></h1>
                         <p>I'm a South African based web designer & front‑end developer focused on crafting clean & user‑friendly experiences, I am passionate about building excellent software that improves the lives of those around me.</p>
                         <p>Building simple and beautiful things for complex interfaces is what I enjoy most about my work. I am also interested in crafting beautiful minimal products and exploring new worlds.</p>
-                        <p>Contact: <strong>jossyelmos@yahoo.com</strong></p>
+                        <p>Contact: <strong>jossyelmos11@gmail.com</strong></p>
                         <p className="social-img">
                             <a href='#!'><i className="fab fa-react fa-3x"></i> </a>
                             <a href='#!'><i className="fab fa-html5 fa-3x"></i> </a>
